@@ -1,4 +1,4 @@
-const klcli = require('kxcli');
+const kxcli = require('kxcli');
 const version = require('./package.json').version;
 
 exports.name = 'kxcli';
