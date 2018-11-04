@@ -1,0 +1,22 @@
+{
+  "name": "xg-command-kxcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgfe/xg-command-kxcli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xgfe/xg-command-kxcli/issues"
+  },
+  "homepage": "https://github.com/xgfe/xg-command-kxcli#readme",
+  "devDependencies": {
+    "kxcli": "^0.2.0"
+  }
+}
