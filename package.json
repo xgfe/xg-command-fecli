@@ -16,7 +16,7 @@
     "url": "https://github.com/xgfe/xg-command-kxcli/issues"
   },
   "homepage": "https://github.com/xgfe/xg-command-kxcli#readme",
-  "devDependencies": {
+  "dependencies": {
     "kxcli": "^0.2.0"
   }
 }
