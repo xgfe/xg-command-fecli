@@ -21,4 +21,7 @@ exports.run = function (argv, cli, env) {
         console.log(`kxcli verson ${kxcli.version}`);
         console.log(`xg-command-kxcli version ${version}`);
     }
+    if(argv.m) {
+        kxcli.create(argv.m);
+    }
 };
