@@ -1,6 +1,6 @@
 {
   "name": "xg-command-kxcli",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/xgfe/xg-command-kxcli#readme",
   "dependencies": {
-    "kxcli": "^0.2.0"
+    "kxcli": "^0.3.0"
   }
 }
