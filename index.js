@@ -1,3 +1,4 @@
+const {child_process} = require('child_process');
 const kxcli = require('kxcli');
 const version = require('./package.json').version;
 
@@ -22,6 +23,6 @@ exports.run = function (argv, cli, env) {
         console.log(`xg-command-kxcli version ${version}`);
     }
     if(argv.m) {
-        kxcli.create(argv.m);
+        child_process.execSync(`kxcli -m ${argv.m}`);
     }
 };
