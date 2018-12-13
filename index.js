@@ -23,6 +23,6 @@ exports.run = function (argv, cli, env) {
         console.log(`xg-command-kxcli version ${version}`);
     }
     if(argv.m) {
-        child_process.execSync(`kxcli -m ${argv.m}`);
+        child_process.exec(`kxcli -m ${argv.m}`);
     }
 };
